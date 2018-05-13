@@ -14,8 +14,8 @@ UninstallDisplayIcon=setup.ico
 ; MinVersion=4.0
 
 [Files]
-Source: "cabextract.exe"; DestDir: "{app}"
 Source: "iexpress.exe"; DestDir: "{app}"
+Source: "makecab.exe"; DestDir: "{app}"
 Source: "msvcrt.dll"; DestDir: "{app}"
 Source: "qi120983.iss"; DestDir: "{app}\Source"
 Source: "Visit my Github.url"; DestDir: "{app}"
